@@ -1,6 +1,7 @@
 # Rewrite Workspace
 
 A sandbox to practice implementing OpenRewrite recipes within.
+Only requirement for this repository is to have a JDK compatible with Gradle 9 available.
 
 ## example-toolkit
 

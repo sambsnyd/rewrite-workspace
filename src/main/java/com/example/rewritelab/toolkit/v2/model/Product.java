@@ -14,12 +14,15 @@ import java.math.BigDecimal;
  */
 public class Product {
 
-    private final String sku;
+    private String sku;
     private String name;
     private BigDecimal price;
     private int quantity;
 
-    public Product(String sku, String name, BigDecimal price, int quantity) {
+    public Product() {
+    }
+
+    private Product(String sku, String name, BigDecimal price, int quantity) {
         this.sku = sku;
         this.name = name;
         this.price = price;

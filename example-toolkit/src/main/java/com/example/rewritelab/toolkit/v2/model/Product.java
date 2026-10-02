@@ -19,9 +19,6 @@ public class Product {
     private BigDecimal price;
     private int quantity;
 
-    public Product() {
-    }
-
     private Product(String sku, String name, BigDecimal price, int quantity) {
         this.sku = sku;
         this.name = name;

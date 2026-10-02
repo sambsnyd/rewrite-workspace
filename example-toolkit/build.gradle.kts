@@ -7,8 +7,8 @@ group = "com.example.rewritelab"
 version = "1.0.0"
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 repositories {
@@ -19,6 +19,9 @@ dependencies {
     api("com.google.guava:guava:32.1.3-jre")
     api("org.apache.commons:commons-lang3:3.14.0")
     api("commons-io:commons-io:2.15.1")
+
+    compileOnly("org.projectlombok:lombok:1.18.42")
+    annotationProcessor("org.projectlombok:lombok:1.18.42")
 
     testImplementation("junit:junit:4.13.2")
 }
